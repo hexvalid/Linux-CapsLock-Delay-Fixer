@@ -1,4 +1,4 @@
-# Linux-CapsLock-Delay-Fixer
+# Linux CapsLock Delay Fixer
 
 **What is the capslock delay problem ?**
 ----------------------------------------
@@ -17,3 +17,4 @@ Add `bootstrap.sh` to your startup programs.
 For Ubuntu:  `bash -ic "sh bootstrap.sh"`
 
 *Tested on Ubuntu 14.10*
+*Tested on Arch Linux (Plasma 5)*
