@@ -1,10 +1,11 @@
-#!/bin/sh
+#!/bin/bash
 #Linux CapsLock Delay Fixer by ErkanMDR /- HELYX
 
+cd "${BASH_SOURCE%/*}" || exit
+
 xkbcomp -xkb $DISPLAY xkbmap
-xnline=$(grep -n 'key <CAPS>' 'xkbmap' |  grep -o '[0-9]*')
 fixpatchline=$(cat fixpatch)
-sed -i "${xnline}s/.*/$fixpatchline/" xkbmap
+perl -i~ -0777 -pe "s/key .CAPS[^}]+};/$fixpatchline/" xkbmap
 xkbcomp xkbmap $DISPLAY
-clear
+rm xkbmap*
 echo "Problem fixed ;)"
