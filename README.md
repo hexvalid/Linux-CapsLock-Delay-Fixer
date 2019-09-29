@@ -16,5 +16,7 @@ That problem occurs in every Linux-based operating system since years and it is 
 Add `bootstrap.sh` to your startup programs.
 For Ubuntu:  `bash -ic "sh bootstrap.sh"`
 
+*Tested on Debian 10 Buster*<br />
+*Tested on Pardus 19<br />
 *Tested on Ubuntu 14.10*<br />
 *Tested on Arch Linux (Plasma 5)*
