@@ -20,4 +20,6 @@ For Ubuntu:  `bash -ic "sh bootstrap.sh"`
 *Tested on Debian 10 Buster*<br />
 *Tested on Pardus 19*<br />
 *Tested on Ubuntu 14.10*<br />
+*Tested on Ubuntu 20.04*<br />
 *Tested on Arch Linux (Plasma 5)*
+ 
